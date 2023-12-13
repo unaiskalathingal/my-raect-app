@@ -1,0 +1,150 @@
+body,
+html {
+  background-image: linear-gradient(180deg, #7f7fd5, #86a8e7, #91eae4);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(89, 89, 180, 0.527);
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  margin: 10px;
+  background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 5px;
+  background-image: url(https://images.unsplash.com/photo-1541828985935-1fe979f9fc0b?ixlib=rb-0.3.5&s=0bdd8e02ba57b014de9494b6770633e8&auto=format&fit=crop&w=750&q=80);
+  box-shadow: 1px 2px 3px black;
+  color: white;
+  max-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header p {
+  margin-top: 0px;
+}
+
+.form > input {
+  margin-top: 20px;
+  width: 370px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 0;
+  outline: none;
+}
+
+.todoDiv {
+  display: flex;
+}
+.todoDiv > button {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.todoDiv > button:hover {
+  color: red;
+}
+
+.todoDiv input[type="text"] {
+  border-radius: 5px;
+  margin: 10px;
+  width: 240px;
+  padding: 10px;
+  height: 20px;
+  border: 0;
+  outline: none;
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.todoDiv input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+  margin-left: -10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.addItem {
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 0;
+  background-color: #fed513;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.addItem:hover {
+  background-color: #cc7722;
+  color: black;
+}
+
+.list-items {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 5px;
+  max-width: 400px;
+  padding-left: 0;
+}
+
+.list-item {
+  padding-top: 10px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: white;
+  margin: 5px;
+  border-left: 4px solid transparent;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.list-item li {
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+.remove-button {
+  margin-right: 15px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+  border: 3px solid grey;
+  outline: none;
+}
+
+.remove-button:hover {
+  border-color: black;
+}
+.list-item:hover {
+  border-left: 4px solid blue;
+}
+
+.list-item input[type="checkbox"] {
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border: 0;
+}
